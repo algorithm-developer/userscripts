@@ -15,7 +15,7 @@ export function DataTableToolbar({ table }) {
     <div className="flex items-center justify-between">
       <div className="flex items-center flex-1 space-x-2">
         <Input
-          placeholder="Filter tasks..."
+          placeholder="Хайх..."
           value={table.getColumn("title")?.getFilterValue() ?? ""}
           onChange={(event) =>
             table.getColumn("title")?.setFilterValue(event.target.value)
@@ -25,14 +25,14 @@ export function DataTableToolbar({ table }) {
         {table.getColumn("status") && (
           <DataTableFacetedFilter
             column={table.getColumn("status")}
-            title="Status"
+            title="Төлөв"
             options={statuses}
           />
         )}
         {table.getColumn("priority") && (
           <DataTableFacetedFilter
             column={table.getColumn("priority")}
-            title="Priority"
+            title="Зэрэглэл"
             options={priorities}
           />
         )}
@@ -42,7 +42,7 @@ export function DataTableToolbar({ table }) {
             onClick={() => table.resetColumnFilters()}
             className="h-8 px-2 lg:px-3"
           >
-            Reset
+            Шинэчлэх
             <Cross2Icon className="w-4 h-4 ml-2" />
           </Button>
         )}

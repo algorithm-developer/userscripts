@@ -21,11 +21,11 @@ export function DataTableViewOptions({ table }) {
           className="hidden h-8 ml-auto lg:flex"
         >
           <MixerHorizontalIcon className="w-4 h-4 mr-2" />
-          View
+          Харагдац
         </Button>
       </DropdownMenuTrigger>
       <DropdownMenuContent align="end" className="w-[150px]">
-        <DropdownMenuLabel>Toggle columns</DropdownMenuLabel>
+        <DropdownMenuLabel>Баганы тохиргоо</DropdownMenuLabel>
         <DropdownMenuSeparator />
         {table
           .getAllColumns()
