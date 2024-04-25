@@ -28,7 +28,7 @@ export function ThemeToggle() {
           <span className="sr-only">Загвар солих</span>
         </Button>
       </DropdownMenuTrigger>
-      <DropdownMenuContent className="w-56" align="end" forceMount>
+      <DropdownMenuContent className="w-auto" align="end" forceMount>
         <DropdownMenuItem onClick={() => setTheme("light")}>
           <SunIcon className="w-4 h-4 mr-2" />
           Гэрэлтэй
