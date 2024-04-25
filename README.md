@@ -27,6 +27,19 @@ Tampermonkey, Greasemonkey, Violentmonkey-д зориулсан usercript
 [Firefox](https://addons.mozilla.org/firefox/addon/violentmonkey/),
 [Edge](https://microsoftedge.microsoft.com/addons/detail/eeagobfjdenkkddmbclomhiblgggliao)
 
+## Userscript суулгах button хийх
+
+```bash
+  <a
+      href="/example.user.js"
+      class="example"
+      type="text/javascript"
+      rel="noindex, nofollow, ugc"
+    >
+    Суулгах
+  </a>
+```
+
 ## Usercript суулгах
 
 [usercripts.vercel.app](https://usercripts.vercel.app)
