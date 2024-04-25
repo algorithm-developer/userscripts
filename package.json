@@ -26,6 +26,7 @@
     "lint:fix": "next lint --fix",
     "preview": "next build && next start",
     "shadcn:init": "npx shadcn-ui@latest init",
+    "shadcn:add": "npx shadcn-ui@latest add",
     "next:update": "yarn add next@latest react@latest react-dom@latest",
     "package:upgrade": "yarn upgrade --latest",
     "prisma:init": "npx prisma init",
@@ -44,6 +45,7 @@
     "react": "^18",
     "react-dom": "^18",
     "react-icons": "^5.1.0",
+    "react-table": "^7.8.0",
     "sharp": "^0.33.3",
     "tailwind-merge": "^2.3.0",
     "tailwind-scrollbar-hide": "^1.1.7"
