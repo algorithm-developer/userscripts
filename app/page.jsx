@@ -8,6 +8,7 @@ import { z } from "zod";
 import { columns } from "@/app/components/shared/columns";
 import { DataTable } from "@/app/components/shared/data-table";
 import { UserNav } from "@/app/components/shared/user-navigation";
+import { ThemeToggle } from "@/app/components/shared/theme-toggle";
 import { taskSchema } from "@/app/data/schema";
 
 // Simulate a database read for tasks.
@@ -38,6 +39,7 @@ export default async function TaskPage() {
             </p>
           </div>
           <div className="flex items-center space-x-2">
+            <ThemeToggle />
             <UserNav />
           </div>
         </div>
