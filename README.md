@@ -40,6 +40,6 @@ Tampermonkey, Greasemonkey, Violentmonkey-д зориулсан usercript
   </a>
 ```
 
-## Usercript суулгах
+## Цуглуулгаас usercript суулгах
 
-[usercripts.vercel.app](https://usercripts.vercel.app)
+[userscripts-algorithm.vercel.app](https://userscripts-algorithm.vercel.app)
