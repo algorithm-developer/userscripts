@@ -1,5 +1,6 @@
 "use client";
 import { Cross2Icon } from "@radix-ui/react-icons";
+import { Table } from "react-table";
 
 import { Button } from "@/app/components/shadcn/ui/button";
 import { Input } from "@/app/components/shadcn/ui/input";
