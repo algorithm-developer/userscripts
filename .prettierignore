@@ -1,0 +1,10 @@
+.git
+.next
+.vscode
+build
+node_modules
+certificates
+package-lock.json
+yarn.lock
+dummy.json
+facebook.txt
