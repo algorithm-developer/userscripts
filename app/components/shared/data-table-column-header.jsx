@@ -5,7 +5,6 @@ import {
   EyeNoneIcon,
 } from "@radix-ui/react-icons";
 
-import { Column } from "@tanstack/react-table";
 import { cn } from "@/app/libraries/utilities";
 import { Button } from "@/app/components/shadcn/ui/button";
 import {

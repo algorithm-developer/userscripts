@@ -1,10 +1,8 @@
 "use client";
-import { ColumnDef } from "@tanstack/react-table";
 import { Badge } from "@/app/components/shadcn/ui/badge";
 import { Checkbox } from "@/app/components/shadcn/ui/checkbox";
 
 import { labels, priorities, statuses } from "@/app/data/data";
-import { Task } from "@/app/data/schema";
 import { DataTableColumnHeader } from "@/app/components/shared/data-table-column-header";
 import { DataTableRowActions } from "@/app/components/shared/data-table-row-actions";
 
