@@ -35,11 +35,16 @@ export default function RootLayout({ children }) {
       <body
         className={cn(
           "min-h-screen bg-background font-sans antialiased",
-          font.variable,
+          font.variable
         )}
       >
         {/* ThemeProvider эхлэл */}
-        <ThemeProvider attribute="class" defaultTheme="system" enableSystem>
+        <ThemeProvider
+          attribute="class"
+          defaultTheme="system"
+          enableSystem
+          disableTransitionOnChange
+        >
           {/* Child component эхлэл */}
           {children}
           {/* Child component төгсгөл */}
