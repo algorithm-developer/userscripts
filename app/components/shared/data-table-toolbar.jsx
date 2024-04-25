@@ -1,6 +1,5 @@
 "use client";
 import { Cross2Icon } from "@radix-ui/react-icons";
-import { Table } from "react-table";
 
 import { Button } from "@/app/components/shadcn/ui/button";
 import { Input } from "@/app/components/shadcn/ui/input";
@@ -43,7 +42,7 @@ export function DataTableToolbar({ table }) {
             onClick={() => table.resetColumnFilters()}
             className="h-8 px-2 lg:px-3"
           >
-            Шинэчлэх
+            Шүүлтүүрийг арилгах
             <Cross2Icon className="w-4 h-4 ml-2" />
           </Button>
         )}
