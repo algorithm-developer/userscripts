@@ -1,6 +1,6 @@
 # Userscript цуглуулга
 
-Tampermonkey, Greasemonkey, Violentmonkey-д зориулсан usercript
+Tampermonkey, Greasemonkey, Violentmonkey-д зориулсан userscript
 
 ## Ажиллуулахад шаардлагатай зүйлс
 
